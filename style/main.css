@@ -1,0 +1,23 @@
+body{
+    background-color: aquamarine;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: beige;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+.box:hover{
+    cursor: pointer;
+    background-color: brown;
+    transform: rotate(180deg);
+}
+.boxes{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    gap: 20px;
+    margin: auto;
+    width: 300px;
+}
